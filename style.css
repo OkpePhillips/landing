@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 18px;
+  width: 1440px;
+}
+header {
+  background: url(./bg-hero-desktop.svg);
+  margin: auto;
+  width: 100%;
+}
+.logo-button {
+  display: flex;
+}
+.huddle {
+  margin: 20px;
+  padding: 20px;
+}
+button {
+  border: 0;
+  padding: 10px;
+}
+.first-button {
+  /* color: hsl(322, 100%, 66%); */
+  float: right;
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+  border-radius: 20px;
+  width: 100px;
+}
+.second-button {
+  background-color: hsl(322, 100%, 66%);
+  padding: 10px;
+  color: white;
+  text-align: center;
+  margin: 10px 10px 10px 0;
+  border-radius: 20px;
+  width: 200px;
+}
+.text-mockup {
+  display: flex;
+  align-items: center;
+  margin: 50px;
+}
+.build-text {
+  width: 40%;
+  margin: 20px;
+}
+.illustration {
+  width: 60%;
+  margin: 20px;
+}
+main {
+  background-color: white;
+}
+.grow {
+  display: flex;
+  width: 90%;
+  border: 3px rgb(255, 250, 250) solid;
+  text-align: center;
+  align-items: center;
+  margin: 20px 50px;
+  border-radius: 5px;
+  box-shadow: 10px;
+}
+.grow-text {
+  margin: 50px;
+  text-align: justify;
+  width: 40%;
+}
+.grow-image {
+  margin: 50px;
+  width: 60%;
+}
+.Flowing {
+  display: flex;
+  width: 90%;
+  border: 3px rgb(255, 250, 250) solid;
+  text-align: center;
+  align-items: center;
+  margin: 20px 50px;
+  border-radius: 5px;
+}
+.flow-image {
+  margin: 50px;
+  width: 50%;
+}
+.flow-conversation {
+  margin: 50px;
+  text-align: justify;
+  width: 50%;
+}
+.users {
+  display: flex;
+  width: 90%;
+  border: 3px rgb(255, 250, 250) solid;
+  text-align: center;
+  align-items: center;
+  margin: 20px 50px;
+  border-radius: 5px;
+}
+.user-text {
+  margin: 50px;
+  text-align: justify;
+  width: 30%;
+}
+
+.user-image {
+  margin: auto;
+  width: 70%;
+  padding: 20px;
+}
+.ready {
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  justify-items: center;
+  width: 400px;
+  height: 150px;
+  border: 3px rgb(255, 250, 250) solid;
+  text-align: center;
+  align-items: center;
+  margin: 20px 50px;
+  border-radius: 10px;
+  margin-bottom: 0px;
+  padding: 20px;
+}
+.startbutton {
+  background-color: hsl(322, 100%, 66%);
+  padding: 10px;
+  color: white;
+  text-align: center;
+  margin: 10px 10px 10px 0;
+  border-radius: 20px;
+  width: 200px;
+}
+.ready h3 {
+  text-align: center;
+}
+h3 {
+  margin: 10px 10px 10px 0;
+  text-align: justify;
+}
+footer {
+  background-color: hsl(208, 11%, 55%);
+  height: 400px;
+  padding-top: 200px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+.footer {
+  display: flex;
+  margin: 50px;
+  flex-wrap: wrap;
+}
+.location {
+  width: 50%;
+  display: flex;
+  margin-right: 20px;
+}
+.location p {
+  display: inline-flex;
+}
+.footline {
+  margin: 10px;
+  padding: 10px;
+}
