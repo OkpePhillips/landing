@@ -5,15 +5,12 @@
 }
 body {
   font-size: 18px;
-  width: 1440px;
+  width: 100%;
 }
 header {
   background: url(./bg-hero-desktop.svg);
   margin: auto;
   width: 100%;
-}
-.logo-button {
-  display: flex;
 }
 .huddle {
   margin: 20px;
@@ -21,17 +18,16 @@ header {
 }
 button {
   border: 0;
-  padding: 10px;
 }
 .first-button {
-  /* color: hsl(322, 100%, 66%); */
   float: right;
   padding: 10px;
   text-align: center;
-  margin: 10px;
   background-color: white;
+  text-align: center;
+  margin: -30px 10px 10px 0;
   border-radius: 20px;
-  width: 100px;
+  width: 200px;
 }
 .second-button {
   background-color: hsl(322, 100%, 66%);
@@ -61,10 +57,11 @@ main {
 .grow {
   display: flex;
   width: 90%;
-  border: 3px rgb(255, 250, 250) solid;
+  border: 3px rgb(253, 251, 251) solid;
   text-align: center;
   align-items: center;
-  margin: 20px 50px;
+  margin: auto;
+  margin-bottom: 10px;
   border-radius: 5px;
   box-shadow: 10px;
 }
@@ -80,10 +77,11 @@ main {
 .Flowing {
   display: flex;
   width: 90%;
-  border: 3px rgb(255, 250, 250) solid;
+  border: 3px rgb(253, 251, 251) solid;
   text-align: center;
   align-items: center;
-  margin: 20px 50px;
+  margin: auto;
+  margin-bottom: 10px;
   border-radius: 5px;
 }
 .flow-image {
@@ -98,10 +96,11 @@ main {
 .users {
   display: flex;
   width: 90%;
-  border: 3px rgb(255, 250, 250) solid;
+  border: 3px rgb(253, 251, 251) solid;
   text-align: center;
   align-items: center;
-  margin: 20px 50px;
+  margin: auto;
+  margin-bottom: 10px;
   border-radius: 5px;
 }
 .user-text {
@@ -116,19 +115,19 @@ main {
   padding: 20px;
 }
 .ready {
+  margin: auto;
+  /* position: relative; */
+  /* bottom: 10px; */
+  width: 40%;
   align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-  justify-items: center;
-  width: 400px;
+  justify-content: center;
   height: 150px;
-  border: 3px rgb(255, 250, 250) solid;
+  border: 3px rgb(253, 251, 251) solid;
   text-align: center;
   align-items: center;
-  margin: 20px 50px;
   border-radius: 10px;
-  margin-bottom: 0px;
   padding: 20px;
+  background-color: white;
 }
 .startbutton {
   background-color: hsl(322, 100%, 66%);
@@ -153,10 +152,12 @@ footer {
   padding-left: 50px;
   padding-right: 50px;
   padding-bottom: 50px;
+  /* position: absolute;
+  top: 10px; */
 }
 .footer {
   display: flex;
-  margin: 50px;
+  /* margin: 50px; */
   flex-wrap: wrap;
 }
 .location {
