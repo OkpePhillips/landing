@@ -114,10 +114,12 @@ main {
   width: 70%;
   padding: 20px;
 }
+.relative {
+  position: relative;
+}
 .ready {
+  position: absolute;
   margin: auto;
-  /* position: relative; */
-  /* bottom: 10px; */
   width: 40%;
   align-items: center;
   justify-content: center;
@@ -128,7 +130,12 @@ main {
   border-radius: 10px;
   padding: 20px;
   background-color: white;
+  z-index: 20;
+  margin-bottom: -100px;
+  left: 50%;
+  transform: translate(-50%);
 }
+
 .startbutton {
   background-color: hsl(322, 100%, 66%);
   padding: 10px;
@@ -146,29 +153,83 @@ h3 {
   text-align: justify;
 }
 footer {
-  background-color: hsl(208, 11%, 55%);
+  background-color: hsl(192, 100%, 9%);
   height: 400px;
-  padding-top: 200px;
-  padding-left: 50px;
-  padding-right: 50px;
+  margin-top: 80px;
+  padding-top: 50px;
   padding-bottom: 50px;
-  /* position: absolute;
-  top: 10px; */
+  color: white;
+  /* margin-top: 100px;
+  padding-top: 50px; */
+  position: relative;
 }
-.footer {
-  display: flex;
-  /* margin: 50px; */
-  flex-wrap: wrap;
+.foot {
+  margin: auto;
+  width: 90%;
 }
-.location {
-  width: 50%;
-  display: flex;
-  margin-right: 20px;
-}
-.location p {
-  display: inline-flex;
-}
-.footline {
-  margin: 10px;
+table {
   padding: 10px;
+  /* margin: 10px; */
+}
+td {
+  box-sizing: content-box;
+  margin-left: 10px;
+  padding: 10px;
+}
+
+.huddle {
+  padding-top: 50px;
+}
+.lorem {
+  width: 300px;
+}
+.whitehuddle {
+  filter: brightness(0) invert(1);
+}
+@media screen and (max-width: 400px) {
+  .text-mockup {
+    flex-direction: column;
+    width: 100%;
+  }
+  .grow {
+    flex-direction: column;
+    width: 100%;
+    margin: 50px;
+  }
+  .users {
+    flex-direction: column;
+    width: 100%;
+    margin: 50px;
+  }
+  .Flowing {
+    flex-direction: column;
+    width: 100%;
+    margin: 50px;
+  }
+  .flow-conversation {
+    width: 90%;
+    margin: auto;
+  }
+  .flow-image {
+    width: 100%;
+    margin: 50px;
+  }
+  .build-text {
+    width: 90%;
+    margin: auto;
+  }
+  .grow-text {
+    width: 90%;
+    margin: auto;
+  }
+  .grow-image {
+    width: 100%;
+  }
+  .user-text {
+    width: 90%;
+    margin: auto;
+  }
+  .user-image {
+    width: 100%;
+  }
 }
