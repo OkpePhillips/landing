@@ -229,6 +229,7 @@ footer {
   font-size: 15px;
   stroke: white;
   fill: hsl(192, 100%, 9%);
+  color: white;
 }
 .copyright {
   width: auto;
@@ -300,7 +301,6 @@ footer {
   }
   footer {
     margin-top: 160px;
-    width: 100%;
   }
   .footer-logo {
     margin: 0;
