@@ -21,6 +21,11 @@ header {
 button {
   border: 0;
 }
+.second-button:hover {
+  border: 0;
+  background-color: hsl(322, 87%, 78%);
+  transition: 0.4s;
+}
 .first-button {
   float: right;
   padding: 10px;
@@ -30,6 +35,12 @@ button {
   margin: -30px 10px 10px 0;
   border-radius: 20px;
   width: 200px;
+  cursor: pointer;
+}
+.first-button:hover {
+  border: 0;
+  background-color: white;
+  transition: 0.4s;
 }
 .second-button {
   background-color: hsl(322, 100%, 66%);
@@ -39,6 +50,7 @@ button {
   margin: 10px 10px 10px 0;
   border-radius: 20px;
   width: 200px;
+  cursor: pointer;
 }
 .text-mockup {
   display: flex;
@@ -146,6 +158,12 @@ main {
   margin: 10px 10px 10px 0;
   border-radius: 20px;
   width: 200px;
+  cursor: pointer;
+}
+.startbutton:hover {
+  border: 0;
+  background-color: hsl(322, 87%, 78%);
+  transition: 0.4s;
 }
 .ready h3 {
   text-align: center;
@@ -221,6 +239,13 @@ footer {
 .meta-icon {
   align-self: flex-start;
   margin: 0 4px;
+  color: white;
+}
+.meta-icon:hover {
+  border: 0;
+  background-color: whitesmoke;
+  color: #fff;
+  transition: 0.4s;
 }
 .meta-icon .icon {
   width: 1.5em;
@@ -230,6 +255,9 @@ footer {
   stroke: white;
   fill: hsl(192, 100%, 9%);
   color: white;
+  border-radius: 50%;
+  background: pink;
+  transition: 0.5s;
 }
 .copyright {
   width: auto;
